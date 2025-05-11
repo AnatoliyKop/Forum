@@ -24,6 +24,6 @@ public class Comment {
     }
     public Integer addLikes(Integer likes){
 
-        return likes++;
+        return ++likes;
     }
 }

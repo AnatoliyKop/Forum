@@ -41,7 +41,7 @@ public class Post {
     }
 
     public Integer addLike(){
-       return likes++;
+       return ++likes;
     }
     public boolean addNewComment(AddCommentDto comment,String commenter){
         Comment comment1= new Comment(comment.getMessage(), commenter);
